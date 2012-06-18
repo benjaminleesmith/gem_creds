@@ -1,4 +1,5 @@
 GemCreds::Application.routes.draw do
+  resources :gem_creds, :only => [:create]
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
